@@ -5,13 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ Page</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <main>
         <section class="faq">
-            <h2 class="faq__tittle">Have Questions?</h2>
-            <p class="faq__description">Browse the section below or contact us.</p>
+            <div faq-test>
+                <div class="faq-text">
+                    <h2 class="faq-text__tittle">Have Questions?</h2>
+                    <p class="faq-text__description">Browse the section below or contact us.</p>
+                </div>
+                <div class="faq-contact">
+                    <p class="faq-contact__text">
+                        If you have any questions about your purchase or refund, our experts
+                        are here to help. Contact us today to get the answers you need and
+                        enjoy a hassle-free shopping experience.
+                    </p>
+                    <a href="#" class="faq-contact__link">Send us your questions →</a>
+                </div>
+            </div>    
             <div class="faq-accordion">
                 <div class="faq-accordion__item">
                     <button class="faq-accordion__button">
@@ -19,8 +32,7 @@
                     </button>
                     <div class="faq-accordion__content">
                         <p class="faq-accordion__text">
-                            We offer a wide range of furniture including living room furniture, bedroom furniture,
-                            dining room
+                            We offer a wide range of furniture including living room furniture, bedroom furniture, dining room
                             furniture, office furniture, outdoor furniture, and more.
                         </p>
                     </div>
@@ -73,39 +85,37 @@
                     </div>
                 </div>
             </div>
-            <div class="faq-contact">
-                <p class="faq-contact__text">
-                    If you have any questions about your purchase or refund, our experts
-                    are here to help. Contact us today to get the answers you need and
-                    enjoy a hassle-free shopping experience.
-                </p>
-                <a href="#" class="faq-contact__link">Send us your questions →</a>
-            </div>
             <div class="faq-features">
                 <ul class="faq-features__list">
                     <li class="faq-features__item">
-                        <img src="img/laptop.svg" alt="Laptop">
-                        <h3 class="faq-features__tittle">Order Online</h3>
-                        <p class="faq-features__description">
-                            You can easily order furniture by adding the selected items to
-                            your shopping card and paying for them directly on our site.
-                        </p>
+                        <img width="40" src="img/laptop.svg" class="faq-img" alt="Laptop">
+                        <div faq-features__item-text>
+                            <h3 class="faq-features__tittle">Order Online</h3>
+                            <p class="faq-features__description">
+                                You can easily order furniture by adding the selected items to
+                                your shopping card and paying for them directly on our site.
+                            </p>
+                        </div>
                     </li>
                     <li class="faq-features__item">
-                        <img src="img/phone.svg" alt="Phone">
-                        <h3 class="faq-features__tittle">Customer Service</h3>
-                        <p class="faq-features__description">
-                            If you are not sure about the choice, our experts will be happy
-                            to advise you by phone.
-                        </p>
+                        <img width="40" src="img/phone.svg" class="faq-img" alt="Phone">
+                        <div faq-features__item-text>
+                            <h3 class="faq-features__tittle">Customer Service</h3>
+                            <p class="faq-features__description">
+                             If you are not sure about the choice, our experts will be happy
+                             to advise you by phone.
+                            </p>
+                        </div>
                     </li>
                     <li class="faq-features__item">
-                        <img src="img/van.svg" alt="Van">
-                        <h3 class="faq-features__tittle">Free Delivery</h3>
-                        <p class="faq-features__description">
-                            Enjoy free and timely delivery to any corner of the world. No
-                            minimum order amount!
-                        </p>
+                        <img width="40" src="img/van.svg" class="faq-img" alt="Van">
+                        <div faq-features__item-text>
+                            <h3 class="faq-features__tittle">Free Delivery</h3>
+                            <p class="faq-features__description">
+                                Enjoy free and timely delivery to any corner of the world. No
+                                minimum order amount!
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>

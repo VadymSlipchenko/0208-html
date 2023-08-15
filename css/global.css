@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=Open+Sans:wght@300;400&display=swap');
+@import url(faq.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-color: #2f3133;
+    --subtitle-color: #707070;
+    --link-text-color: #8c9e8a;
+    --paragraph-color: #8d8d8d;
+    --carousel-card-ribbon-color: #464c5c;
+    --discount-text-color: #c5cbd6;
+    --basic-button-color: #927a62;
+    --button-hover-color: #8c9d8a;
+    --form-light-text-color: #f7f4f0;
+    --form-background-transparent-color: #2f3133de;
+    --footer-light-text-color: #ffffffd1;
+    --footer-background-color: #303133;
+    --footer-title-text: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Archivo', sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}

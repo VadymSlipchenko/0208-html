@@ -1,6 +1,8 @@
 .faq {
     background-color: #e5e9e2;
-    padding: 90px 0;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 20px;
 }
 
 .faq-test {
@@ -24,10 +26,8 @@
 }
 
 .faq-contact {
-    margin: 60px, 0, 0;
+    margin-top: 60px;
     padding: 0 20px;
-    width: 400;
-    height: 170;
 }
 
 .faq-contact__text {
@@ -51,6 +51,5 @@
 }
 
 .faq-features__item {
-    margin: 0, -7px;
     display: flex;
 }

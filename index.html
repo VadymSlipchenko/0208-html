@@ -1,126 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ Page</title>
-    <link rel="stylesheet" href="css/index.css">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-    <main>
-        <section class="faq">
-            <div faq-test>
-                <div class="faq-text">
-                    <h2 class="faq-text__tittle">Have Questions?</h2>
-                    <p class="faq-text__description">Browse the section below or contact us.</p>
-                </div>
-                <div class="faq-contact">
-                    <p class="faq-contact__text">
-                        If you have any questions about your purchase or refund, our experts
-                        are here to help. Contact us today to get the answers you need and
-                        enjoy a hassle-free shopping experience.
-                    </p>
-                    <a href="#" class="faq-contact__link">Send us your questions →</a>
-                </div>
-            </div>    
-            <div class="faq-accordion">
-                <div class="faq-accordion__item">
-                    <button class="faq-accordion__button">
-                        What types of furniture do you offer?
-                    </button>
-                    <div class="faq-accordion__content">
-                        <p class="faq-accordion__text">
-                            We offer a wide range of furniture including living room furniture, bedroom furniture, dining room
-                            furniture, office furniture, outdoor furniture, and more.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-accordion__item">
-                    <button class="faq-accordion__button">
-                        How long does it take for my order to arrive?
-                    </button>
-                    <div class="faq-accordion__content">
-                        <p class="faq-accordion__text">
-                            Delivery times will depend on the item ordered and the delivery
-                            location. Generally, orders can take from 3 to 10 working days
-                            to arrive. Worldwide deliveries take 10-14 working days.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-accordion__item">
-                    <button class="faq-accordion__button">
-                        How do I return an item?
-                    </button>
-                    <div class="faq-accordion__content">
-                        <p class="faq-accordion__text">
-                            If you are not satisfied with your purchase, you can return it
-                            within 30 days for a full refund. Please contact our customer
-                            service team for more details.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-accordion__item">
-                    <button class="faq-accordion__button">
-                        Do you offer any special discounts?
-                    </button>
-                    <div class="faq-accordion__content">
-                        <p class="faq-accordion__text">
-                            Yes, we offer a variety of discounts and special offers
-                            throughout the year. Please check our website or sign up for our
-                            email newsletter to stay up to date on our current promotions.
-                        </p>
-                    </div>
-                </div>
-                <div class="faq-accordion__item">
-                    <button class="faq-accordion__button">
-                        Do you offer a warranty on your furniture?
-                    </button>
-                    <div class="faq-accordion__content">
-                        <p class="faq-accordion__text">
-                            Yes, we offer a one-year warranty on all furniture sold in our
-                            store.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="faq-features">
-                <ul class="faq-features__list">
-                    <li class="faq-features__item">
-                        <img width="40" src="img/laptop.svg" class="faq-img" alt="Laptop">
-                        <div faq-features__item-text>
-                            <h3 class="faq-features__tittle">Order Online</h3>
-                            <p class="faq-features__description">
-                                You can easily order furniture by adding the selected items to
-                                your shopping card and paying for them directly on our site.
-                            </p>
-                        </div>
-                    </li>
-                    <li class="faq-features__item">
-                        <img width="40" src="img/phone.svg" class="faq-img" alt="Phone">
-                        <div faq-features__item-text>
-                            <h3 class="faq-features__tittle">Customer Service</h3>
-                            <p class="faq-features__description">
-                             If you are not sure about the choice, our experts will be happy
-                             to advise you by phone.
-                            </p>
-                        </div>
-                    </li>
-                    <li class="faq-features__item">
-                        <img width="40" src="img/van.svg" class="faq-img" alt="Van">
-                        <div faq-features__item-text>
-                            <h3 class="faq-features__tittle">Free Delivery</h3>
-                            <p class="faq-features__description">
-                                Enjoy free and timely delivery to any corner of the world. No
-                                minimum order amount!
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
+    <h1>Clicker Game</h1>
+    <p>Click the button as fast as you can to earn points!</p>
+    <p>Points: <span id="score">0</span></p>
+    <button id="clickButton">Click Me!</button>
+    <script src="script.js"></script>
 </body>
-
 </html>

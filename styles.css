@@ -1,0 +1,13 @@
+#clickButton {
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clickButton:hover {
+    background-color: #2980b9;
+}

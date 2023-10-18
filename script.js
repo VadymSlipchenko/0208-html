@@ -25,7 +25,7 @@ clickButton.addEventListener("click", function () {
 
     // Animate the button on click
     animateButtonClick();
-)}
+})
 
 // Timer for the game (you can adjust the time limit)
 const gameDuration = 30; // in seconds

@@ -27,6 +27,7 @@ body {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 5px;
 }
 
 #clickButton:hover {

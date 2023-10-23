@@ -5,16 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f2f2f2;
-}
-
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('img/projectbckgnd.jpeg');
+    background-image: url('img/milky-way-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
